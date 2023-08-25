@@ -16,7 +16,7 @@ class MyDrawer extends StatelessWidget {
             onTap: () => context.go("/"),
           ),
           ListTile(
-            title: const Text("Privacy"),
+            title: const Text("Confidentialité"),
             leading: const Icon(Icons.privacy_tip),
             onTap: () => context.go("/privacy"),
           ),

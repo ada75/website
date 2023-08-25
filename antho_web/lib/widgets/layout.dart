@@ -16,6 +16,7 @@ class MyLayout extends StatelessWidget {
       appBar: const MyAppBar(),
       // ADA bottomNavigationBar: const Footer(),
       body: child,
+      backgroundColor: Colors.white,
     );
   }
 }
